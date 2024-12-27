@@ -1,0 +1,13 @@
+.worldContainer {
+    background-color: #1B1D1F;
+    position: absolute;
+    left: 5%;
+    top: 45%;
+    width: 90%;
+    height: 500px;
+    border: 1px solid #282B30;
+    border-radius: 10px;
+    /* display: grid; */
+}
+
+

@@ -1,0 +1,25 @@
+.containerHeaderMp {
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-around;
+    gap: 40%
+}
+.containerHeaderMp > span {
+    color: #6C727F;
+    font-weight: 700;
+}
+
+.containerHeaderMp > input {
+    width: 300px;
+    height: 30px;
+    padding-left: 30px;
+    border-radius: 10px;
+    background-image: url("../../../public/Search.svg");
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    background-size: 20px;
+    background-color: #282B30;
+    color: #6C727F;
+
+}
+
