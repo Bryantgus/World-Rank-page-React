@@ -1,12 +1,15 @@
 .containerHeaderMp {
     padding-top: 3%;
     display: flex;
-    justify-content: space-around;
-    gap: 40%
+    justify-content: space-between;
+    padding-left: 35px;
+    padding-right: 35px;
+    
 }
 .containerHeaderMp > span {
     color: #6C727F;
     font-weight: 700;
+    font-size: 14px;
 }
 
 .containerHeaderMp > input {

@@ -1,0 +1,23 @@
+.filter {
+    padding-left: 35px;
+}
+
+.titlesFilter {
+    display: block;
+    color: #6C727F;
+    font-size: 12px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    
+
+}.custom-select {
+    background-color: #1B1D1F;
+    border: 2px solid #282B30;
+    color: #D2D5DA;
+    border-radius: 10px;
+    height: 35px;
+    width: 220px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
