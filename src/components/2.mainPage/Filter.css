@@ -1,4 +1,4 @@
-.filter {
+.containerfilter {
     padding-left: 35px;
 }
 
@@ -10,14 +10,95 @@
     padding-bottom: 10px;
     
 
-}.custom-select {
+}
+
+.custom-select {
     background-color: #1B1D1F;
     border: 2px solid #282B30;
     color: #D2D5DA;
     border-radius: 10px;
-    height: 35px;
-    width: 220px;
+    height: 40px;
+    width: 260px;
     font-size: 14px;
     padding-left: 10px;
 }
+
+.region > span {
+    padding-top: 40px;
+}
+
+.regionItems {
+    display: grid;
+    grid-template-columns: 70px 50px auto ;   
+    grid-template-rows: 30px auto auto;
+    row-gap: 12px;
+}
+
+.Americas {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+    
+}
+
+.Antartic {
+    grid-column: 2 / 2;
+    grid-row: 1 / 3;
+    margin-left: 30px;
+    
+    
+}
+
+.Africa {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+}
+
+
+ .Asia {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    padding-left: 4px;
+}  
+
+.Europe {
+    grid-column: 3 / 3;
+    grid-row: 2 / 3;
+    padding-left: 9px;
+}
+
+.Oceania {
+    grid-column: span 3;
+    grid-row: 3 / 3; 
+}
+
+.status > span {
+    margin-top: 15px;
+}
+
+.status > label {
+    text-align: center;
+    align-items: center;
+}
+.inputStatus {
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    border: 1px solid #6C727F;
+}
+
+.check1 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+.check2 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+
 

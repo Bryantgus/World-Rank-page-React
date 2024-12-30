@@ -1,0 +1,17 @@
+.regionItem > button{
+    background-color: #1B1D1F;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    padding: 7px;
+}
+
+.regionItem > button:hover {
+    border: 1px solid #6C727F;
+    padding: 6px;
+}
+
+.bgChange > button{
+    background-color: #282B30;
+    color: #D2D5DA;
+}

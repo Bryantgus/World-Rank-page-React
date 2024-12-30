@@ -4,19 +4,22 @@
     justify-content: space-between;
     padding-left: 35px;
     padding-right: 35px;
+    align-items: center;
     
 }
 .containerHeaderMp > span {
     color: #6C727F;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 18px;
     
 }
 
 .containerHeaderMp > input {
-    width: 300px;
-    height: 30px;
-    padding-left: 30px;
+    width: 330px;
+    height: 45px;
+    font-size: 16px;
+    padding-left: 35px;
+    border: none;
     border-radius: 10px;
     background-image: url("../../../public/Search.svg");
     background-repeat: no-repeat;
@@ -24,6 +27,9 @@
     background-size: 20px;
     background-color: #282B30;
     color: #6C727F;
+}
 
+.containerHeaderMp > input {
+ outline: none;
 }
 

@@ -2,12 +2,31 @@
     background-color: #1B1D1F;
     position: absolute;
     left: 5%;
-    top: 45%;
+    top: 35%;
     width: 90%;
-    height: 500px;
+    height: auto;
     border: 1px solid #282B30;
     border-radius: 10px;
-    /* display: grid; */
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+    /*grid */
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 20% 80%;
+    row-gap: 30px;
+        
 }
 
+.containerHeaderMp {
+    grid-column: span 2;
+}
 
+.containerFilter {
+    grid-column: 2 /2;
+    grid-row: 1 / 2;
+}
+
+.containerInfo {
+    grid-column: 2 /2;
+    grid-row: 2 / 2;
+}

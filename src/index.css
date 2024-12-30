@@ -2,8 +2,41 @@
   font-family: "Be Vietnam Pro", serif;
   font-style: normal;
   margin: 0;
+  padding: 0;
 }
 
 body {
   background-color: #1B1D1F;
+}
+
+.fontOne {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.fontTwo {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.fontThree {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.fontfour {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.colorOne {
+  color: #282B30;
+}
+
+.colorTwo {
+  color: #6C727F;
+}
+
+.colorThree {
+  color: #D2D5DA;
 }

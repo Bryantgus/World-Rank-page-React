@@ -1,0 +1,26 @@
+/* .size {
+    font-size: 12px;
+} */
+
+.Flag {
+    margin-right: 60px;
+}
+
+.Name {
+    margin-right: 150px;
+}
+
+.Population {
+    margin-right: 100px;
+}
+
+.Region {
+    margin-left: 120px;
+}
+
+.line {
+    width: 95%;
+    height: 3px;
+    background-color: #282B30;
+    margin-top: 20px;
+}
