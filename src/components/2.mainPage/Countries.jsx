@@ -4,7 +4,7 @@ import PropTypes from "prop-types"
 export default function Countries(props) {
     return (
         <div className="countries">
-            <img src={props.flag} alt="flag" />
+            <div className="img"><img src={props.flag} alt="flag" className="flag" /></div>
             <span className="nameCountry">{props.nameCountry}</span>
             <span className="population">{props.population}</span>
             <span className="areaKm">{props.area}</span>
